@@ -39,3 +39,14 @@ print(multi_line_string)
 # Boolean adalah tipe data yang hanya memiliki dua nilai: True atau False.
 is_student: bool = True
 is_graduate: bool = False
+
+# --- None (NoneType) ---
+# None adalah tipe data khusus yang merepresentasikan ketiadaan nilai atau objek.
+# None sering digunakan untuk menunjukkan bahwa sebuah variabel belum memiliki nilai
+# atau untuk menandai bahwa sebuah fungsi tidak mengembalikan nilai apa pun.
+
+# contoh penggunaan None
+def fungsi_tanpa_return() -> None:
+    print("Fungsi ini tidak mengembalikan nilai apa pun.")
+
+pilihan_user: str | None = None # variabel ini belum memiliki nilai, jadi kita set ke None
